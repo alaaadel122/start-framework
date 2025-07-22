@@ -21,7 +21,7 @@ export default function Portfolio() {
           <div className='star-blue text-center' style={{ color: '#2C3E50', }}><i className='fa-solid fa-star fa-2x'></i></div>
         </div>
         <div className='container mb-5 mt-3'>
-          <div className='row g-3'>
+          <div className='row g-3 pb-5 mb-5'>
             {
               imgs.map((img, idx) => <Gallery key={idx} img={img} handleImageClick={handleImageClick} ></Gallery>)
             }
