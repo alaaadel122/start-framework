@@ -14,14 +14,14 @@ export default function Portfolio() {
   }
   function handleClose() { setSelectedImage(null)};
   return (
-    <div className='pt-5 mb-5'> 
+    <div className='my-5'> 
       <div className='portifolioSection d-flex  justify-content-center  align-items-center flex-column pt-5'>
         <div>
           <ComponentAddress componentName={'portfolio component'} color={'#2C3E50'} />
           <div className='star-blue text-center' style={{ color: '#2C3E50', }}><i className='fa-solid fa-star fa-2x'></i></div>
         </div>
         <div className='container mb-5 mt-3'>
-          <div className='row g-3 pb-5 '>
+          <div className='row g-3  '>
             {
               imgs.map((img, idx) => <Gallery key={idx} img={img} handleImageClick={handleImageClick} ></Gallery>)
             }
