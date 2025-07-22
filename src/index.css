@@ -1,0 +1,171 @@
+:root {
+  --light-blue: #1ABC9C;
+  --light-gray: #2C3E50;
+}
+
+.nav-custom-style {
+  background-color: #2C3E50 !important;
+
+}
+
+.navbar-nav .nav-item {
+  margin-left: 10px;
+  color: white !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  border-radius: 10px;
+  background-color: var(--light-blue);
+  font-weight: 700;
+  font-size: 21px;
+  color: white !important;
+
+}
+.nav-link {
+  color: white !important;
+  font-size: 21px !important;
+  font-weight: 700 !important;
+  
+}
+.navbar {
+  transition: padding 0.4s;
+  padding: 2rem 1rem; /* مثال للـ padding الكبير */
+}
+.navbar.scrolled {
+  padding: 0.5rem 1rem; /* مثال للـ padding الصغير */
+}
+.footer-style {
+  background-color: var(--light-gray);
+  position: relative;
+  left: 0;
+  right: 0;
+  height: 30vh;
+
+}
+
+/* .footerItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.footerItem h3 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33.6px;
+}
+
+.item-icon {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.copyright {
+  height: 8vh;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+}
+
+.home-section,
+.about-section,
+.portifolioSection,
+.contactSection {
+  height: 85vh;
+  background-color: var(--light-blue);
+}
+
+.img-section {
+  width: 300px;
+}
+
+.comp-address {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: auto;
+}
+
+.star ,.star-blue{
+  position: relative;
+  margin-top: 15px;
+
+}
+
+.star::after ,.star-blue::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  width: 130px;
+  height: 5px;
+  top: 50%;
+  right: 20px;
+}
+
+.star::before ,.star-blue::before{
+  content: '';
+  position: absolute;
+  background-color: white;
+  width: 130px;
+  height: 5px;
+  top: 50%;
+  left: 20px;
+}
+
+.star-blue::after {
+ 
+  background-color: #2C3E50;
+  
+}
+
+.star-blue::before {
+  
+  background-color: #2C3E50;
+  
+}
+.portifolioSection,
+.contactSection {
+  height: 85vh;
+  background-color: #fff;
+
+}
+
+.overlayImg {
+  transition: all 0.4s;
+
+}
+
+.overlayImg:hover {
+  background-color: rgba(26, 188, 156, 0.74);
+
+}
+
+.icon-pls {
+  opacity: 0;
+  transition: all 0.4s;
+}
+
+.overlayImg:hover .icon-pls {
+  opacity: 1;
+
+}
+.fullscreen-overlay {
+  z-index: 99999 !important;
+  background: rgba(100, 145, 230, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
