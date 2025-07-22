@@ -14,7 +14,7 @@ export default function Portfolio() {
   }
   function handleClose() { setSelectedImage(null)};
   return (
-    <div className='pt-5 pb-5'> 
+    <div className='pt-5 mb-5'> 
       <div className='portifolioSection d-flex  justify-content-center  align-items-center flex-column pt-5'>
         <div>
           <ComponentAddress componentName={'portfolio component'} color={'#2C3E50'} />
