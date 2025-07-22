@@ -79,7 +79,7 @@
 .about-section,
 .portifolioSection,
 .contactSection {
-  height: 90vh;
+  height: 105vh;
   background-color: var(--light-blue);
 }
 
